@@ -10,8 +10,8 @@ y = np.sqrt(t)*np.cos(t)
 
 # Plotting the parametric curve
 plt.plot(x, y)
-plt.xlabel('x = tcos(t)/4')
-plt.ylabel('y = tsin(t)/4')
+plt.xlabel(r'x = $\sqrt{t}$')
+plt.ylabel(r'y = $\sqrt{t}$ cos(t)')
 plt.title('Parametric Plot')
 plt.gca().set_aspect('equal')  # Set equal scaling for x and y axes
 plt.grid(True)
