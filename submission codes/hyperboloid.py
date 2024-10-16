@@ -21,27 +21,27 @@ fig = go.Figure(data=[surface])
 
 # Labels, title, and adjust axis limits
 fig.update_layout(scene=dict(
-                    xaxis=dict(title='X Axis', titlefont=dict(color='white'), 
+                    xaxis=dict(title='X Axis', titlefont=dict(color='black'), 
                                showbackground=False, 
-                               color='white', 
-                               gridcolor='darkgray', 
-                               zerolinecolor='white',
+                               color='black', 
+                               gridcolor='gray', 
+                               zerolinecolor='black',
                                range=[-5, 5]),  # Adjusted x-axis limits
-                    yaxis=dict(title='Y Axis', titlefont=dict(color='white'), 
+                    yaxis=dict(title='Y Axis', titlefont=dict(color='black'), 
                                showbackground=False, 
-                               color='white', 
-                               gridcolor='darkgray', 
-                               zerolinecolor='white',
+                               color='black', 
+                               gridcolor='gray', 
+                               zerolinecolor='black',
                                range=[-5, 5]),  # Adjusted y-axis limits
-                    zaxis=dict(title='Z Axis', titlefont=dict(color='white'), 
+                    zaxis=dict(title='Z Axis', titlefont=dict(color='black'), 
                                showbackground=False, 
-                               color='white', 
-                               gridcolor='darkgray', 
-                               zerolinecolor='white',
+                               color='black', 
+                               gridcolor='gray', 
+                               zerolinecolor='black',
                                range=[-5, 5]),  # Adjusted z-axis limits
                   ),
-                  title='Hyperboloid of One Sheet',
-                  plot_bgcolor='black')
+                  title='Hyperboloid of One Sheet (Light Mode)',
+                  plot_bgcolor='white')
 
 # Show plot
 fig.show()
